@@ -21,8 +21,15 @@ function playGame() {
         turn = 1;
     }
     if (score1 >= 30) {
-        document.getElementById("result").innerText = "Player 1 Wins"
+        document.getElementById("result").innerText = "Player 1 Wins";
+        setTimeout(function() {
+            window.location.href = "index.html";
+        }, 2000);
     } else if (score2 >= 30) {
         document.getElementById("result").innerText = "Player 2 Wins";
+        setTimeout(function() {
+            window.location.href = "index.html";
+        }, 1000);
     }
+
 }

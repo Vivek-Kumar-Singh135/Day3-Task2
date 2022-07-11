@@ -39,6 +39,10 @@ button {
     background: linear-gradient(100deg, lime, lightseagreen);
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 #result {
     border: 2px solid black;
     background: li;
